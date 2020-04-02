@@ -18,4 +18,12 @@ public interface doc {
      * @return contenido del archivo tras insertar la linea line en la linea numero x
      */
    public abstract String escribirLinea(int x, String line, String file);
+   
+   /**
+    * Recibe una ciudad, calcula su area, y finalmente devuelve el area en km^2
+    * @param ciudad ciudad de la que calcular el area, debe ser una ciudad existente
+    * @return el area de la ciudad en kilometros cuadrados
+    * 
+    */
+   public abstract int getAreaCiudad(String ciudad); 
 }
