@@ -63,7 +63,7 @@ public class PracticaExamenTest {
     
     public void testParaProbar3() {
         int x = 4;
-        int expResult = 6;
+        int expResult = 5;
         int result = PracticaExamen.paraProbar(x);
         assertEquals(expResult, result);
     }
